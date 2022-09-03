@@ -1,0 +1,81 @@
+Entity,Superclass(es),http://purl.org/ozo/onz-g#definitionSource,http://purl.org/ozo/onz-g#editorNote,http://purl.org/ozo/onz-g#hasApproximateZIBLabel,http://www.w3.org/2000/01/rdf-schema#comment,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://www.w3.org/2000/01/rdf-schema#label,http://www.w3.org/2004/02/skos/core#definition,
+http://www.w3.org/2000/01/rdf-schema#isDefinedBy,,,,,,,,
+http://purl.org/ozo/onz-g#Agreement,http://www.w3.org/2002/07/owl#Thing,,,,,,,,
+http://purl.org/ozo/onz-g#CareAdministrativeInformationObject,http://www.w3.org/2002/07/owl#Thing,,,,,,,,
+http://purl.org/ozo/onz-g#CodeList,http://www.w3.org/2002/07/owl#Thing,,,,,,,,
+http://purl.org/ozo/onz-g#ErroneousTherapeuticIntervention,http://www.w3.org/2002/07/owl#Thing,,,,,,,,
+http://purl.org/ozo/onz-g#FreedomRestrictionEvent,http://www.w3.org/2002/07/owl#Thing,,,,,,"'Vrijheidsbeperkende interventie'",,
+http://purl.org/ozo/onz-g#HealthcareLaw,http://www.w3.org/2002/07/owl#Thing,,,,,,,,
+http://purl.org/ozo/onz-g#Human,http://www.w3.org/2002/07/owl#Thing,,,,,,,,
+http://purl.org/ozo/onz-g#IdentifierInformationObject,http://www.w3.org/2002/07/owl#Thing,,,,,,,,
+http://purl.org/ozo/onz-g#IntentionalProcess,http://www.w3.org/2002/07/owl#Thing,,,,,,,,
+http://purl.org/ozo/onz-g#Lesion,http://www.w3.org/2002/07/owl#Thing,,,,,,,,
+http://purl.org/ozo/onz-g#MedicalRatingQuality,http://www.w3.org/2002/07/owl#Thing,,,,,,,,
+http://purl.org/ozo/onz-g#MedicalRatingValue,http://www.w3.org/2002/07/owl#Thing,,,,,,,,
+http://purl.org/ozo/onz-g#Meeting,http://www.w3.org/2002/07/owl#Thing,,,,,,,,
+http://purl.org/ozo/onz-g#PatientInCare,http://www.w3.org/2002/07/owl#Thing,,,,,,,,
+http://purl.org/ozo/onz-zorg#AfspraakContinentie,http://purl.org/ozo/onz-zorg#BeleidsAfspraak,,,,,,"'Afspraak continentie'","'Een afspraak rondom de toiletgang van een client.'",
+http://purl.org/ozo/onz-zorg#AfspraakLevenseinde,http://purl.org/ozo/onz-zorg#BeleidsAfspraak,,,,,,"'Beleidsafspraak levenseinde'","'Een beleidsafspraak waarin afspraken zijn vastgelegd rondom het levenseinde.'",
+http://purl.org/ozo/onz-zorg#AfspraakVoedselvoorkeuren,http://purl.org/ozo/onz-zorg#BeleidsAfspraak,,,,,,"'Afspraak voedselvoorkeuren'","'Een afspraak rondom voedselvoorkeuren van een client.'",
+http://purl.org/ozo/onz-zorg#AfzonderingsInterventie,http://purl.org/ozo/onz-g#FreedomRestrictionEvent,,,,,,"'In een ruimte afzondern'",,
+http://purl.org/ozo/onz-zorg#BehandelingRondLevenseinde,http://purl.org/ozo/onz-zorg#ZorgOvereenkomstOnderwerp,,,,,,"'Behandeling rond levenseinde'","'Onderwerpen omtrent behandeling rond het levenseinde waarover beleidsafspraken met client kunnen worden gemaakt.'",
+http://purl.org/ozo/onz-zorg#BeleidsAfspraak,http://purl.org/ozo/onz-g#Agreement,,,,,,"'Beleidsafspraak'","'Een overeenkomst waarbij de specifieke toepassing van een bepaald beleid wordt overeengekomen.'",
+http://purl.org/ozo/onz-zorg#BesprekingMedicatiefouten,http://purl.org/ozo/onz-g#Meeting,"'https://www.zorginzicht.nl/binaries/content/assets/zorginzicht/kwaliteitsinstrumenten/handboek-indicatoren-verpleeghuiszorg-verslagjaar-2021.pdf'",,,,,"'Bespreking medicatiefouten'","'Meeting waarin medicatiefouten worden besproken met medewerkers van de afdeling op basis meldingen.'",
+http://purl.org/ozo/onz-zorg#COD163,http://purl.org/ozo/onz-g#CodeList,,,,,,"'ZZP codelijst (COD163)'","'Lijst met gecodeerde aanduiding van een zorgzwaartepakket.'",
+http://purl.org/ozo/onz-zorg#CasuistiekBesprekingDecubitus,http://purl.org/ozo/onz-g#Meeting,"'https://www.zorginzicht.nl/binaries/content/assets/zorginzicht/kwaliteitsinstrumenten/handboek-indicatoren-verpleeghuiszorg-verslagjaar-2021.pdf'",,,,,"'Casuïstiekbespreking decubitus'","'Een bespreking over decubitus waarbij de volgende items zijn doorgenomen:
+* Waar is het huidletsel ontstaan?
+* Wat is de locatie?
+* Zagen we al risico’s tijdens de anamnese?
+* Interventies tot op heden, duur van de wondgenezing etc.'",
+http://purl.org/ozo/onz-zorg#Client,http://purl.org/ozo/onz-g#PatientInCare,,,,,,"'Client'","'Rol van een persoon die zorg onvangt in een Verpleeghuis op basis van een Wlz indicatie.'",
+http://purl.org/ozo/onz-zorg#DecubitusCategorieWaarde,http://purl.org/ozo/onz-g#MedicalRatingValue,"'V&VN Wondzorg'",,,,,"'Decubituscategorie'","'Lijst van waarden om de ernst van een decubitus wond te categoriseren.'",
+http://purl.org/ozo/onz-zorg#DecubitusWond,http://purl.org/ozo/onz-g#Lesion,"'https://terminologie.nictiz.nl/terminology/snomed/viewConcept/1163214006'",,"'https://zibs.nl/wiki/DecubitusWond-v3.4(2020NL)'","'Note that some Human can have one or multiple pressure ulcers at different locations on the body and in different stages of severity. For the overall condition of 'having one or multiple pressure wounds' which is called 'decubitus' in Dutch, we refer to the editor notes provided for the class onz-g:DiseaseOrSyndrome. 
+
+Note that assigning some severity level (e.g. debitus stage 4) may be applied to the overall condition 'decubitus' (instance of DiseaseOrSyndrome, inhering in some Organism) AND/OR the individual pressure ulcers (also inhering in some Organism). VPH allows for both.'","'SNOMED CT'","'Decubituswond'","'Een gelokaliseerde beschadiging van de huid en/of onderliggend weefsel, meestal ter hoogte van een botuitsteeksel, als gevolg van druk of van druk in samenhang met schuifkracht.'",
+http://purl.org/ozo/onz-zorg#EenOpEenInterventie,http://purl.org/ozo/onz-g#FreedomRestrictionEvent,,,,,,"'Eén-op-één toezicht'",,
+http://purl.org/ozo/onz-zorg#ElektronischeInterventie,http://purl.org/ozo/onz-g#FreedomRestrictionEvent,,,,"'Alarm of camera'",,"'Elektronische interventie'",,
+http://purl.org/ozo/onz-zorg#FarmacologischeInterventie,http://purl.org/ozo/onz-g#FreedomRestrictionEvent,,,,,,"'Farmacologische interventie'",,
+http://purl.org/ozo/onz-zorg#FysiekeInterventie,http://purl.org/ozo/onz-g#FreedomRestrictionEvent,,,,,,"'Fysieke interventie'",,
+http://purl.org/ozo/onz-zorg#Grondslag,http://purl.org/ozo/onz-g#CareAdministrativeInformationObject,,,,"'Een indicatiebesluit kan gebaseerd zijn op meer dan één grondslag. De eerste grondslag wordt aan de indicatie gekoppeld middels de relatie 'formally defines', de tweede grondslag met 'defines'.
+
+Als er sprake is van één grondslag, wordt deze aan de indicatie gekoppeld middels de relatie 'formally defines'.'","'http://purl.org/ozo/onz-g#Wet_Langdurige_Zorg'","'Grondslag'","'De grondslag is een aandoening, beperking, stoornis of handicap die toegang kan geven tot de Wlz.
+
+De grondslagen voor Wlz-zorg zijn: een somatische (SOM) of psychogeriatrische (PG) aandoening of beperking, een psychische stoornis (PSY), een verstandelijke (VG), lichamelijke (LG) of zintuiglijke (ZG) handicap.'",
+http://purl.org/ozo/onz-zorg#IndicatieBesluit,http://purl.org/ozo/onz-g#CareAdministrativeInformationObject,,,,,,"'Indicatiebesluit'","'Besluit waarbij beoordeeld wordt of en in welke omvang iemand in aanmerking komt voor zorg.
+
+Voor zorg die valt onder de Wet langdurige zorg wordt dit besluit genomen door het CIZ. Voor zorg die valt onder de Zorgverekeringswet wordt dit besluit genomen door de zorgverzekeraar. Voor de zorg die valt onder de Wet Maatschappelijke Ondersteuning wordt dit besluit genomen door de gemeente.'",
+http://purl.org/ozo/onz-zorg#LangdurigeZorgSector,http://purl.org/ozo/onz-g#CareAdministrativeInformationObject,,,,,,"'Langdurige zorg sector'","'De langdurige zorg wordt ingedeeld in een aantal sectoren, conform de Regeling langdurige zorg (Rlz). Een nadere definitie van deze sectoren is niet gevonden.'",
+http://purl.org/ozo/onz-zorg#Leveringsvorm,http://purl.org/ozo/onz-g#CareAdministrativeInformationObject,,,,,"'http://purl.org/ozo/onz-g#Zorginstituut_Nederland'",,"'Verzekerden met een indicatie voor Wlz-zorg kunnen ervoor kiezen in een instelling te gaan wonen om de zorg te krijgen die zij nodig hebben. Zij kunnen er onder voorwaarden ook voor kiezen om zorg thuis te ontvangen met een volledig pakket thuis (vpt), een modulair pakket thuis (mpt) of om de benodigde zorg zelf te regelen met een persoonsgebonden budget (pgb). Deze mogelijkheden worden leveringsvormen genoemd.
+
+Een combinatie van verblijf met mpt en/of pgb is mogelijk bij deeltijdverblijf. Deeltijdverblijf is een combinatie van in een instelling wonen en thuis wonen. Het is geen aparte leveringsvorm.'",
+http://purl.org/ozo/onz-zorg#MechanischeInterventie,http://purl.org/ozo/onz-g#FreedomRestrictionEvent,,,,,,"'Mechanische interventie'",,
+http://purl.org/ozo/onz-zorg#MedicatieReview,http://purl.org/ozo/onz-g#Meeting,,,,,"'SNOMED Clinical Terms'","'Medicatiereview'","'Systematische beoordeling van het geneesmiddelgebruik van een individuele patiënt, met name bij polyfarmacie (chronisch gebruik van vijf of meer medicijnen tegelijk), door de behandelend arts, apotheker en de patiënt zelf (en/of mantelzorger of andere verzorgenden) op basis van een periodieke gestructureerde, kritische evaluatie van de medische, farmaceutische en gebruiksinformatie; doel zijn onder meer afstemming van de farmacotherapeutische behandeling door artsen, apothekers, verpleegkundigen en verzorgenden op basis van de wensen, behoeften en ervaringen van de patiënt, te komen tot de keuze van het juiste middel, bevordering van juist gebruik van de medicijnen en verminderen van risico's op problemen gerelateerd aan het medicijngebruik.'",
+http://purl.org/ozo/onz-zorg#Medicatiefout,http://purl.org/ozo/onz-g#ErroneousTherapeuticIntervention,,,,,,"'Medicatiefout'",,
+http://purl.org/ozo/onz-zorg#MeldingIncidentClient,http://purl.org/ozo/onz-g#CareAdministrativeInformationObject,,,,,,"'MIC melding'","'Een MIC melding (Melding Incident Client) is InformationObject waarin een incident wordt beschreven dat heeft plaatsgevonden bij een specifieke client.'",
+http://purl.org/ozo/onz-zorg#MeldingMedicatieFout,http://purl.org/ozo/onz-zorg#MeldingIncidentClient,,,,,,"'Melding medicatiefout'","'Een MIC melding die als onderwerp een medicatiefout heeft.'",
+http://purl.org/ozo/onz-zorg#NursingProcess,http://purl.org/ozo/onz-g#IntentionalProcess,,,,"'Betreffende de relatie met de plek waar het verpleegproces plaatsvindt het volgende.
+
+Een verpleegproces vindt uiteindelijk altijd plaats binnen een Verblijfsobject (onz-g:AccomodativeObject). In de data kan de relatie rechtstreeks worden uitgedrukt, of via een andere onz-g:StationaryArtifact die een onz-g:partOf relatie heeft met een Verblijfsobject.
+
+Bijvoorbeeld:
+Afdeling_A a onz-org:Afdeling (subClassOf onz-g:StationaryArtefact)
+Vestiging_1 a onz-org:Vestiging (subClassOf onz-g:AccomodativeObject)
+Verpleegproces hasPysicalLocation Afdeling_A
+Afdeling_Z partOf Vestiging_1
+
+Dan is de conclusie: Verpleegproces hasPhysicalLocation Vestiging_1'",,"'Verpleegproces'","'Het zorgproces dat plaatsvindt binnen een verpleeghuisorganisatie ter verzorging van een persoon, die als deelnemer in dit proces de rol client krijgt.'",
+http://purl.org/ozo/onz-zorg#PsychologischeMaatregel,http://purl.org/ozo/onz-g#FreedomRestrictionEvent,,,,"'dwingend spreken'",,"'Psychologische maatregel'",,
+http://purl.org/ozo/onz-zorg#VoedselVoorkeuren,http://purl.org/ozo/onz-zorg#ZorgOvereenkomstOnderwerp,,,,,,"'Voedselvoorkeuren'","'Onderwerpen omtrent voedselvoorkeuren waarover beleidsafspraken met client kunnen worden gemaakt.'",
+http://purl.org/ozo/onz-zorg#WlzIndicatie,http://purl.org/ozo/onz-zorg#IndicatieBesluit,"'Wet langdurige zorg'","'Wanneer de Wet zorg en dwang van toepassing is op een specifieke indicatie, kan dat worden aangegeven door indicatie te verbinden met deze wet middels de relatie 'defined by'.'	'Het Centrum Indicatiestelling Zorg (CIZ) beoordeelt of iemand in aanmerking komt voor zorg vanuit de Wlz. U komt mogelijk in aanmerking als u intensieve zorg of toezicht nodig heeft. Voldoet u aan de voorwaarden? Dan geeft het CIZ een zogeheten Wlz-indicatie af.'",,,"'http://purl.org/ozo/onz-g#Wet_Langdurige_Zorg'","'Wlz-indicatie'","'Een besluit waarin staat welk recht iemand heeft op langdurige zorg.'",
+http://purl.org/ozo/onz-zorg#WmoIndicatie,http://purl.org/ozo/onz-zorg#IndicatieBesluit,,,,,"'http://purl.org/ozo/onz-g#Wet_Maatschappelijke_Ondersteuning'","'Wmo-indicatie'","'Een Wmo-indicatie is een besluit waarin staat op welke zorg iemand recht heeft die valt binnen de kaders van de Wet Maatschappelijke Ondersteuning.
+
+Een Wmo-indicatie wordt afgegeven door de gemeente.'",
+http://purl.org/ozo/onz-zorg#ZorgOvereenkomstOnderwerp,http://purl.org/ozo/onz-g#CareAdministrativeInformationObject,,,,,,"'Onderwerp zorgovereenkomst'","'Onderwerpen omtrent overeenkomsten die gaan over de zorgverlening.
+
+Voorbeeld: een afspraak over wel/niet reanimeren als onderwerp van een overeenkomst die gaat over hoe om wordt gegaan met de behandeling rond het levenseinde van een client.'",
+http://purl.org/ozo/onz-zorg#ZorgProfiel,http://purl.org/ozo/onz-g#CareAdministrativeInformationObject,,,,,"'Thesaurus Zorg en Welzijn'","'Zorgprofiel'","'Beschrijving van de aard, inhoud en globale omvang van de zorg die iemand nodig heeft; in het indicatiebesluit van het CIZ wordt het zorgprofiel aangegeven waartoe de cliënt behoort, zoals VG (sector verstandelijk gehandicapt) Wonen met begeleiding en intensieve zorg; afspraken over de precieze invulling van de benodigde zorg maakt de cliënt met de zorgaanbieder in het zorgplan.'",
+http://purl.org/ozo/onz-zorg#ZorgRondomToiletgang,http://purl.org/ozo/onz-zorg#ZorgOvereenkomstOnderwerp,,,,,,"'Zorg rondom toiletgang'","'Onderwerpen omtrent toiletgang waarover beleidsafspraken met client kunnen worden gemaakt.'",
+http://purl.org/ozo/onz-zorg#ZvwIndicatie,http://purl.org/ozo/onz-zorg#IndicatieBesluit,,,,,"'http://purl.org/ozo/onz-g#Zorgverzekeringswet'","'Zvw-indicatie'","'Een Zvw-indicatie is een besluit waarin staat op welke zorg iemand recht heeft die valt binnen de kaders van de Zorgverzekerings Wet.
+
+Een Zvw-indicatie wordt aangevraagd door een huisarts, medische specialist of therapeut bij de zorgverzekeraar. De zorgverzekeraar bepaalt vervolgens de indicatie.'",
+http://purl.org/ozo/onz-zorg#ZzpIdentifier,http://purl.org/ozo/onz-g#IdentifierInformationObject,,,,,,"'Zorgzwaartepakket identifier'","'Een identifier om een bepaald Zorgzwaarte pakket (ZZP) aan te duiden.'",

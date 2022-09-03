@@ -1,0 +1,56 @@
+"ID","Type","Name","Documentation"
+"ZorgkantoorRegio","BusinessObject","Zorgkantoor regio","rdf-schema#comment: Nederland is verdeeld in 31 zorgkantoorregio’s. Elke regio heeft zijn eigen zorgkantoor. Zorgkantoren werken zelfstandig en zijn gekoppeld aan de grootste zorgverzekeraar in die regio."
+"AccomodativeObject","BusinessObject","Verblijfsobject",""
+"Business","BusinessObject","Onderneming","onz-g#definitionSource: Handelsregisterwet
+
+rdf-schema#isDefinedBy: https://wetten.overheid.nl/BWBR0021777/"
+"HealthcareOffice","BusinessObject","Zorgkantoor",""
+"MunicipalityArea","BusinessObject","Gemeente",""
+"NursingHomeOrganization","BusinessObject","Verpleeghuis",""
+"Organization","BusinessObject","Organisatie",""
+"Adres","BusinessObject","Adres","onz-g#definitionSource: https://bag.basisregistraties.overheid.nl/begrippenlijst
+
+core#definition: Een adres is een door het bevoegde gemeentelijke orgaan aan een verblijfsobject, een standplaats of een ligplaats toegekende benaming, bestaande uit een combinatie van de naam van een openbare ruimte, een nummeraanduiding en de naam van een woonplaats."
+"HuisLetter","BusinessObject","Huisletter","onz-g#definitionSource: https://bag.basisregistraties.overheid.nl/begrippenlijst
+
+core#definition: Een huisletter is een authentiek gegeven met betrekking tot een nummeraanduiding. Het is de lettering van een adresseerbaar object."
+"HuisNummer","BusinessObject","Huisnummer","onz-g#definitionSource: https://bag.basisregistraties.overheid.nl/begrippenlijst"
+"HuisNummerToevoeging","BusinessObject","Huisnummertoevoeging","onz-g#definitionSource: https://bag.basisregistraties.overheid.nl/begrippenlijst
+
+core#definition: Een huisnummertoevoeging is een authentiek gegeven met betrekking tot een nummeraanduiding. Het is de toevoeging aan de nummering van een adresseerbaar object."
+"KvkNummer","BusinessObject","KVK-nummer","onz-g#definitionSource: Handelsregisterwet
+
+rdf-schema#isDefinedBy: https://wetten.overheid.nl/BWBR0021777/
+
+core#definition: Als je je bedrijf inschrijft in het Handelsregister krijg je een uniek 8-cijferig KVK-nummer. Een KVK-nummer laat zien dat je officieel ingeschreven staat bij KVK. En je dus formeel een bedrijf hebt."
+"Locatie","BusinessObject","Locatie","core#definition: Met locatie wordt een fysieke plek bedoeld, die onderdeel is van één Verblijfsobject.
+
+Voorbeeld: een verdieping of vleugel binnen een Verblijfsobject.
+
+Een verblijfsobject kan bestaan uit één of meerdere locaties. Een locatie kan niet meer dan één Verblijfsobject beslaan."
+"NummerAanduiding","BusinessObject","Nummeraanduiding","onz-g#definitionSource: https://bag.basisregistraties.overheid.nl/begrippenlijst
+
+core#definition: Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats. Het is het samenstel van huisnummer, huisletter en huisnummertoevoeging."
+"OrganisatorischeEenheid","BusinessObject","Organisatorische eenheid","rdf-schema#isDefinedBy: https://www.kennisconsult.nl/begrippen/7968/
+
+core#definition: Een groep binnen een organisatie die is gevormd ter behartiging van een specifieke organisatiedoelstelling."
+"Postcode","BusinessObject","Postcode","onz-g#definitionSource: https://bag.basisregistraties.overheid.nl/begrippenlijst
+
+core#definition: De postcode is een coderingssystematiek zoals ontwikkeld en beheerd door PostNL. Een postcode is een niet-authentiek gegeven met betrekking tot een nummeraanduiding."
+"Vestiging","BusinessObject","Vestiging","onz-g#definitionSource: Handelsregisterwet
+
+rdf-schema#isDefinedBy: https://wetten.overheid.nl/BWBR0021777/
+
+core#definition: Een gebouw of complex van gebouwen waar duurzame uitoefening van de activiteiten van een onderneming of rechtspersoon plaatsvindt."
+"Vestigingsnummer","BusinessObject","Vestigingsnummer","onz-g#definitionSource: Handelsregisterwet
+
+rdf-schema#isDefinedBy: https://wetten.overheid.nl/BWBR0021777/
+
+core#definition: Elke vestiging van een onderneming of rechtspersoon in het Handelsregister heeft een uniek vestigingsnummer van 12 cijfers."
+"Woonplaats","BusinessObject","Woonplaats","onz-g#definitionSource: http://bag.basisregistraties.overheid.nl/id/begrip/Woonplaats
+
+onz-g#editorNote: Aangemaakt als subklasse van DorpOfStad om te verwijzen naar de specifieke definitie volgens het Kadaster zoals dat in Nederland wordt gehanteerd.
+
+De bredere klasse DorpOfStad refereert dus naar het bredere begrip dat ook buiten Nederland geldigheid heeft.
+
+core#definition: Een woonplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente."

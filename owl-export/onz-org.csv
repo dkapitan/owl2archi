@@ -1,0 +1,34 @@
+Entity,Superclass(es),http://purl.org/ozo/onz-g#definitionSource,http://purl.org/ozo/onz-g#editorNote,http://www.w3.org/2000/01/rdf-schema#comment,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://www.w3.org/2000/01/rdf-schema#label,http://www.w3.org/2004/02/skos/core#definition,
+http://purl.org/ozo/onz-org#ZorgkantoorRegio,http://purl.org/ozo/onz-g#AdministrativeRegion,,,"'Nederland is verdeeld in 31 zorgkantoorregio’s. Elke regio heeft zijn eigen zorgkantoor. Zorgkantoren werken zelfstandig en zijn gekoppeld aan de grootste zorgverzekeraar in die regio.'",,"'Zorgkantoor regio'",,
+http://purl.org/ozo/onz-g#AccomodativeObject,http://www.w3.org/2002/07/owl#Thing,,,,,"'Verblijfsobject'",,
+http://purl.org/ozo/onz-g#Address,http://www.w3.org/2002/07/owl#Thing,,,,,,,
+http://purl.org/ozo/onz-g#AdministrativeRegion,http://www.w3.org/2002/07/owl#Thing,,,,,,,
+http://purl.org/ozo/onz-g#Business,http://purl.org/ozo/onz-g#Organization,"'Handelsregisterwet'",,,"'https://wetten.overheid.nl/BWBR0021777/'","'Onderneming'",,
+http://purl.org/ozo/onz-g#DependentStationaryArtifact,http://www.w3.org/2002/07/owl#Thing,,,,,,,
+http://purl.org/ozo/onz-g#FormalIdentifier,http://www.w3.org/2002/07/owl#Thing,,,,,,,
+http://purl.org/ozo/onz-g#HealthcareOffice,http://www.w3.org/2002/07/owl#Thing,,,,,"'Zorgkantoor'",,
+http://purl.org/ozo/onz-g#LocalizableArea,http://www.w3.org/2002/07/owl#Thing,,,,,,,
+http://purl.org/ozo/onz-g#LocalizablePlaceInformationObject,http://www.w3.org/2002/07/owl#Thing,,,,,,,
+http://purl.org/ozo/onz-g#MunicipalityArea,http://www.w3.org/2002/07/owl#Thing,,,,,"'Gemeente'",,
+http://purl.org/ozo/onz-g#NursingHomeOrganization,http://purl.org/ozo/onz-g#Business,,,,,"'Verpleeghuis'",,
+http://purl.org/ozo/onz-g#Organization,http://www.w3.org/2002/07/owl#Thing,,,,,"'Organisatie'",,
+http://purl.org/ozo/onz-g#Roadway,http://www.w3.org/2002/07/owl#Thing,,,,,,,
+http://purl.org/ozo/onz-g#VillageOrCity,http://www.w3.org/2002/07/owl#Thing,,,,,,,
+http://purl.org/ozo/onz-org#Adres,http://purl.org/ozo/onz-g#Address,"'https://bag.basisregistraties.overheid.nl/begrippenlijst'",,,,"'Adres'","'Een adres is een door het bevoegde gemeentelijke orgaan aan een verblijfsobject, een standplaats of een ligplaats toegekende benaming, bestaande uit een combinatie van de naam van een openbare ruimte, een nummeraanduiding en de naam van een woonplaats.'",
+http://purl.org/ozo/onz-org#HuisLetter,http://purl.org/ozo/onz-g#LocalizablePlaceInformationObject,"'https://bag.basisregistraties.overheid.nl/begrippenlijst'",,,,"'Huisletter'","'Een huisletter is een authentiek gegeven met betrekking tot een nummeraanduiding. Het is de lettering van een adresseerbaar object.'",
+http://purl.org/ozo/onz-org#HuisNummer,http://purl.org/ozo/onz-g#LocalizablePlaceInformationObject,"'https://bag.basisregistraties.overheid.nl/begrippenlijst'",,,,"'Huisnummer'",,
+http://purl.org/ozo/onz-org#HuisNummerToevoeging,http://purl.org/ozo/onz-g#LocalizablePlaceInformationObject,"'https://bag.basisregistraties.overheid.nl/begrippenlijst'",,,,"'Huisnummertoevoeging'","'Een huisnummertoevoeging is een authentiek gegeven met betrekking tot een nummeraanduiding. Het is de toevoeging aan de nummering van een adresseerbaar object.'",
+http://purl.org/ozo/onz-org#KvkNummer,http://purl.org/ozo/onz-g#FormalIdentifier,"'Handelsregisterwet'",,,"'https://wetten.overheid.nl/BWBR0021777/'","'KVK-nummer'","'Als je je bedrijf inschrijft in het Handelsregister krijg je een uniek 8-cijferig KVK-nummer. Een KVK-nummer laat zien dat je officieel ingeschreven staat bij KVK. En je dus formeel een bedrijf hebt.'",
+http://purl.org/ozo/onz-org#Locatie,http://purl.org/ozo/onz-g#DependentStationaryArtifact,,,,,"'Locatie'","'Met locatie wordt een fysieke plek bedoeld, die onderdeel is van één Verblijfsobject.
+
+Voorbeeld: een verdieping of vleugel binnen een Verblijfsobject.
+
+Een verblijfsobject kan bestaan uit één of meerdere locaties. Een locatie kan niet meer dan één Verblijfsobject beslaan.'",
+http://purl.org/ozo/onz-org#NummerAanduiding,http://purl.org/ozo/onz-g#LocalizablePlaceInformationObject,"'https://bag.basisregistraties.overheid.nl/begrippenlijst'",,,,"'Nummeraanduiding'","'Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats. Het is het samenstel van huisnummer, huisletter en huisnummertoevoeging.'",
+http://purl.org/ozo/onz-org#OrganisatorischeEenheid,http://purl.org/ozo/onz-g#Organization,,,,"'https://www.kennisconsult.nl/begrippen/7968/'","'Organisatorische eenheid'","'Een groep binnen een organisatie die is gevormd ter behartiging van een specifieke organisatiedoelstelling.'",
+http://purl.org/ozo/onz-org#Postcode,http://purl.org/ozo/onz-g#LocalizablePlaceInformationObject,"'https://bag.basisregistraties.overheid.nl/begrippenlijst'",,,,"'Postcode'","'De postcode is een coderingssystematiek zoals ontwikkeld en beheerd door PostNL. Een postcode is een niet-authentiek gegeven met betrekking tot een nummeraanduiding.'",
+http://purl.org/ozo/onz-org#Vestiging,http://purl.org/ozo/onz-g#AccomodativeObject,"'Handelsregisterwet'",,,"'https://wetten.overheid.nl/BWBR0021777/'","'Vestiging'","'Een gebouw of complex van gebouwen waar duurzame uitoefening van de activiteiten van een onderneming of rechtspersoon plaatsvindt.'",
+http://purl.org/ozo/onz-org#Vestigingsnummer,http://purl.org/ozo/onz-g#FormalIdentifier,"'Handelsregisterwet'",,,"'https://wetten.overheid.nl/BWBR0021777/'","'Vestigingsnummer'","'Elke vestiging van een onderneming of rechtspersoon in het Handelsregister heeft een uniek vestigingsnummer van 12 cijfers.'",
+http://purl.org/ozo/onz-org#Woonplaats,http://purl.org/ozo/onz-g#VillageOrCity,"'http://bag.basisregistraties.overheid.nl/id/begrip/Woonplaats'","'Aangemaakt als subklasse van 'DorpOfStad' om te verwijzen naar de specifieke definitie volgens het Kadaster zoals dat in Nederland wordt gehanteerd.
+
+De bredere klasse DorpOfStad refereert dus naar het bredere begrip dat ook buiten Nederland geldigheid heeft.'",,,"'Woonplaats'","'Een woonplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente.'",

@@ -1,0 +1,98 @@
+"ID","Type","Name","Documentation"
+"FreedomRestrictionEvent","BusinessObject","Vrijheidsbeperkende interventie",""
+"AfspraakContinentie","BusinessObject","Afspraak continentie","core#definition: Een afspraak rondom de toiletgang van een client."
+"AfspraakLevenseinde","BusinessObject","Beleidsafspraak levenseinde","core#definition: Een beleidsafspraak waarin afspraken zijn vastgelegd rondom het levenseinde."
+"AfspraakVoedselvoorkeuren","BusinessObject","Afspraak voedselvoorkeuren","core#definition: Een afspraak rondom voedselvoorkeuren van een client."
+"AfzonderingsInterventie","BusinessObject","In een ruimte afzondern",""
+"BehandelingRondLevenseinde","BusinessObject","Behandeling rond levenseinde","core#definition: Onderwerpen omtrent behandeling rond het levenseinde waarover beleidsafspraken met client kunnen worden gemaakt."
+"BeleidsAfspraak","BusinessObject","Beleidsafspraak","core#definition: Een overeenkomst waarbij de specifieke toepassing van een bepaald beleid wordt overeengekomen."
+"BesprekingMedicatiefouten","BusinessObject","Bespreking medicatiefouten","onz-g#definitionSource: https://www.zorginzicht.nl/binaries/content/assets/zorginzicht/kwaliteitsinstrumenten/handboek-indicatoren-verpleeghuiszorg-verslagjaar-2021.pdf
+
+core#definition: Meeting waarin medicatiefouten worden besproken met medewerkers van de afdeling op basis meldingen."
+"COD163","BusinessObject","ZZP codelijst (COD163)","core#definition: Lijst met gecodeerde aanduiding van een zorgzwaartepakket."
+"CasuistiekBesprekingDecubitus","BusinessObject","Casuïstiekbespreking decubitus","onz-g#definitionSource: https://www.zorginzicht.nl/binaries/content/assets/zorginzicht/kwaliteitsinstrumenten/handboek-indicatoren-verpleeghuiszorg-verslagjaar-2021.pdf
+
+core#definition: Een bespreking over decubitus waarbij de volgende items zijn doorgenomen:
+* Waar is het huidletsel ontstaan?
+* Wat is de locatie?
+* Zagen we al risico’s tijdens de anamnese?
+* Interventies tot op heden, duur van de wondgenezing etc."
+"Client","BusinessObject","Client","core#definition: Rol van een persoon die zorg onvangt in een Verpleeghuis op basis van een Wlz indicatie."
+"DecubitusCategorieWaarde","BusinessObject","Decubituscategorie","onz-g#definitionSource: V&VN Wondzorg
+
+core#definition: Lijst van waarden om de ernst van een decubitus wond te categoriseren."
+"DecubitusWond","BusinessObject","Decubituswond","onz-g#definitionSource: https://terminologie.nictiz.nl/terminology/snomed/viewConcept/1163214006
+
+onz-g#hasApproximateZIBLabel: https://zibs.nl/wiki/DecubitusWond-v3.4(2020NL)
+
+rdf-schema#comment: Note that some Human can have one or multiple pressure ulcers at different locations on the body and in different stages of severity. For the overall condition of having one or multiple pressure wounds which is called decubitus in Dutch, we refer to the editor notes provided for the class onz-g:DiseaseOrSyndrome. 
+
+Note that assigning some severity level (e.g. debitus stage 4) may be applied to the overall condition decubitus (instance of DiseaseOrSyndrome, inhering in some Organism) AND/OR the individual pressure ulcers (also inhering in some Organism). VPH allows for both.
+
+rdf-schema#isDefinedBy: SNOMED CT
+
+core#definition: Een gelokaliseerde beschadiging van de huid en/of onderliggend weefsel, meestal ter hoogte van een botuitsteeksel, als gevolg van druk of van druk in samenhang met schuifkracht."
+"EenOpEenInterventie","BusinessObject","Eén-op-één toezicht",""
+"ElektronischeInterventie","BusinessObject","Elektronische interventie","rdf-schema#comment: Alarm of camera"
+"FarmacologischeInterventie","BusinessObject","Farmacologische interventie",""
+"FysiekeInterventie","BusinessObject","Fysieke interventie",""
+"Grondslag","BusinessObject","Grondslag","rdf-schema#comment: Een indicatiebesluit kan gebaseerd zijn op meer dan één grondslag. De eerste grondslag wordt aan de indicatie gekoppeld middels de relatie formally defines, de tweede grondslag met defines.
+
+Als er sprake is van één grondslag, wordt deze aan de indicatie gekoppeld middels de relatie formally defines.
+
+rdf-schema#isDefinedBy: http://purl.org/ozo/onz-g#Wet_Langdurige_Zorg
+
+core#definition: De grondslag is een aandoening, beperking, stoornis of handicap die toegang kan geven tot de Wlz.
+
+De grondslagen voor Wlz-zorg zijn: een somatische (SOM) of psychogeriatrische (PG) aandoening of beperking, een psychische stoornis (PSY), een verstandelijke (VG), lichamelijke (LG) of zintuiglijke (ZG) handicap."
+"IndicatieBesluit","BusinessObject","Indicatiebesluit","core#definition: Besluit waarbij beoordeeld wordt of en in welke omvang iemand in aanmerking komt voor zorg.
+
+Voor zorg die valt onder de Wet langdurige zorg wordt dit besluit genomen door het CIZ. Voor zorg die valt onder de Zorgverekeringswet wordt dit besluit genomen door de zorgverzekeraar. Voor de zorg die valt onder de Wet Maatschappelijke Ondersteuning wordt dit besluit genomen door de gemeente."
+"LangdurigeZorgSector","BusinessObject","Langdurige zorg sector","core#definition: De langdurige zorg wordt ingedeeld in een aantal sectoren, conform de Regeling langdurige zorg (Rlz). Een nadere definitie van deze sectoren is niet gevonden."
+"MechanischeInterventie","BusinessObject","Mechanische interventie",""
+"MedicatieReview","BusinessObject","Medicatiereview","rdf-schema#isDefinedBy: SNOMED Clinical Terms
+
+core#definition: Systematische beoordeling van het geneesmiddelgebruik van een individuele patiënt, met name bij polyfarmacie (chronisch gebruik van vijf of meer medicijnen tegelijk), door de behandelend arts, apotheker en de patiënt zelf (en/of mantelzorger of andere verzorgenden) op basis van een periodieke gestructureerde, kritische evaluatie van de medische, farmaceutische en gebruiksinformatie; doel zijn onder meer afstemming van de farmacotherapeutische behandeling door artsen, apothekers, verpleegkundigen en verzorgenden op basis van de wensen, behoeften en ervaringen van de patiënt, te komen tot de keuze van het juiste middel, bevordering van juist gebruik van de medicijnen en verminderen van risicos op problemen gerelateerd aan het medicijngebruik."
+"Medicatiefout","BusinessObject","Medicatiefout",""
+"MeldingIncidentClient","BusinessObject","MIC melding","core#definition: Een MIC melding (Melding Incident Client) is InformationObject waarin een incident wordt beschreven dat heeft plaatsgevonden bij een specifieke client."
+"MeldingMedicatieFout","BusinessObject","Melding medicatiefout","core#definition: Een MIC melding die als onderwerp een medicatiefout heeft."
+"NursingProcess","BusinessObject","Verpleegproces","rdf-schema#comment: Betreffende de relatie met de plek waar het verpleegproces plaatsvindt het volgende.
+
+Een verpleegproces vindt uiteindelijk altijd plaats binnen een Verblijfsobject (onz-g:AccomodativeObject). In de data kan de relatie rechtstreeks worden uitgedrukt, of via een andere onz-g:StationaryArtifact die een onz-g:partOf relatie heeft met een Verblijfsobject.
+
+Bijvoorbeeld:
+Afdeling_A a onz-org:Afdeling (subClassOf onz-g:StationaryArtefact)
+Vestiging_1 a onz-org:Vestiging (subClassOf onz-g:AccomodativeObject)
+Verpleegproces hasPysicalLocation Afdeling_A
+Afdeling_Z partOf Vestiging_1
+
+Dan is de conclusie: Verpleegproces hasPhysicalLocation Vestiging_1
+
+core#definition: Het zorgproces dat plaatsvindt binnen een verpleeghuisorganisatie ter verzorging van een persoon, die als deelnemer in dit proces de rol client krijgt."
+"PsychologischeMaatregel","BusinessObject","Psychologische maatregel","rdf-schema#comment: dwingend spreken"
+"VoedselVoorkeuren","BusinessObject","Voedselvoorkeuren","core#definition: Onderwerpen omtrent voedselvoorkeuren waarover beleidsafspraken met client kunnen worden gemaakt."
+"WlzIndicatie","BusinessObject","Wlz-indicatie","onz-g#definitionSource: Wet langdurige zorg
+
+onz-g#editorNote: Wanneer de Wet zorg en dwang van toepassing is op een specifieke indicatie, kan dat worden aangegeven door indicatie te verbinden met deze wet middels de relatie defined by.	Het Centrum Indicatiestelling Zorg (CIZ) beoordeelt of iemand in aanmerking komt voor zorg vanuit de Wlz. U komt mogelijk in aanmerking als u intensieve zorg of toezicht nodig heeft. Voldoet u aan de voorwaarden? Dan geeft het CIZ een zogeheten Wlz-indicatie af.
+
+rdf-schema#isDefinedBy: http://purl.org/ozo/onz-g#Wet_Langdurige_Zorg
+
+core#definition: Een besluit waarin staat welk recht iemand heeft op langdurige zorg."
+"WmoIndicatie","BusinessObject","Wmo-indicatie","rdf-schema#isDefinedBy: http://purl.org/ozo/onz-g#Wet_Maatschappelijke_Ondersteuning
+
+core#definition: Een Wmo-indicatie is een besluit waarin staat op welke zorg iemand recht heeft die valt binnen de kaders van de Wet Maatschappelijke Ondersteuning.
+
+Een Wmo-indicatie wordt afgegeven door de gemeente."
+"ZorgOvereenkomstOnderwerp","BusinessObject","Onderwerp zorgovereenkomst","core#definition: Onderwerpen omtrent overeenkomsten die gaan over de zorgverlening.
+
+Voorbeeld: een afspraak over wel/niet reanimeren als onderwerp van een overeenkomst die gaat over hoe om wordt gegaan met de behandeling rond het levenseinde van een client."
+"ZorgProfiel","BusinessObject","Zorgprofiel","rdf-schema#isDefinedBy: Thesaurus Zorg en Welzijn
+
+core#definition: Beschrijving van de aard, inhoud en globale omvang van de zorg die iemand nodig heeft; in het indicatiebesluit van het CIZ wordt het zorgprofiel aangegeven waartoe de cliënt behoort, zoals VG (sector verstandelijk gehandicapt) Wonen met begeleiding en intensieve zorg; afspraken over de precieze invulling van de benodigde zorg maakt de cliënt met de zorgaanbieder in het zorgplan."
+"ZorgRondomToiletgang","BusinessObject","Zorg rondom toiletgang","core#definition: Onderwerpen omtrent toiletgang waarover beleidsafspraken met client kunnen worden gemaakt."
+"ZvwIndicatie","BusinessObject","Zvw-indicatie","rdf-schema#isDefinedBy: http://purl.org/ozo/onz-g#Zorgverzekeringswet
+
+core#definition: Een Zvw-indicatie is een besluit waarin staat op welke zorg iemand recht heeft die valt binnen de kaders van de Zorgverzekerings Wet.
+
+Een Zvw-indicatie wordt aangevraagd door een huisarts, medische specialist of therapeut bij de zorgverzekeraar. De zorgverzekeraar bepaalt vervolgens de indicatie."
+"ZzpIdentifier","BusinessObject","Zorgzwaartepakket identifier","core#definition: Een identifier om een bepaald Zorgzwaarte pakket (ZZP) aan te duiden."
